@@ -1,0 +1,54 @@
+.sec-8 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  
+  }
+  .sec-8 p, .sec-5 p, .sec-11 p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #787879;
+    text-align: center; 
+    margin: 0 260px 24px 260px;
+  }
+  .sec-8 button{
+    padding: 20px 30px;
+    color: rgb(16,116,231);
+    border: 1px solid rgba(16,116,231,0.61);
+    background-color: white;
+    border-radius: 4px;
+    padding: 20px 40px 20px 40px;
+    text-align: center;
+    font-weight: 600;
+  
+  }
+  .sec-9{
+    display: flex;
+    justify-content: center;
+    padding: 50px 120px;
+  }
+  .sec-9 h4{
+    color: #3c3f42;
+    font-size: 20px;
+  }
+  .sec-9 p{
+    font-size: 14px;
+    color: #787879;
+  }
+  .sec-10 {
+    padding: 40px 300px;
+  }
+  .head-para{
+    border: 1px solid #7c7c7c71;
+    border-radius: 3px;
+    padding: 20px 30px;
+    display: flex;
+  }
+  .head-para a{
+    display: block;
+    color: rgb(3,102,214);
+    font-size: 16px;
+  }
+  .head-para a i{
+    font-size: 16px;
+  }

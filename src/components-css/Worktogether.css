@@ -1,0 +1,25 @@
+.sec-5 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* padding-top: 30px;
+    padding-bottom: 20px; */
+    /* max-width: 100%; */
+    /* padding-left: 20px;
+    padding-right: 20px; */
+    padding: 30px 40px 20px 40px;
+  
+  }
+  .sec-5 button{
+    padding: 20px 30px;
+    color: rgb(16,116,231);
+    border: 1px solid rgba(16,116,231,0.61);
+    background-color: white;
+    border-radius: 4px;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  .sec-5 button:hover {
+    border-color: #1074e7;
+  }

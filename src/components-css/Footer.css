@@ -1,0 +1,38 @@
+footer {
+    padding: 30px 50px 50px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .links {
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    /* justify-content: space-around; */
+  }
+  .links div{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    padding-right: 70px;
+  }
+  .links div span, a{
+    padding-bottom: 10px;
+    font-size: 13px;
+    color: rgb(98, 98, 98);
+  }
+  .links div a{
+    text-decoration: none;
+    /* color: black; */
+  }
+  .last {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 30px 10px 30px;
+  }
+  .last i {
+    color: rgb(149,157,165);
+    padding-right: 10px;
+    font-size: 20px;
+  }

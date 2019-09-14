@@ -1,0 +1,87 @@
+.about-sec {
+    background-image: url("https://github.githubassets.com/images/modules/site/heroes/simple-codelines.svg");
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    /* height: auto; */
+    background-color: #2b3137;
+    padding: 80px 30px;
+  
+}
+.about {
+    /* display: flex; */
+    display: inline;
+    /* flex-direction: column;
+    justify-content: flex-start; */
+    max-width: 40%;
+    /* margin-left: 20px; */
+    color: white;
+    margin-right: 80px;
+}
+.about h1{
+    font-size: 55px;
+}
+.about p {
+    font-size: 20px;
+    color: #b0aeae;
+}
+.about a{
+    font-size: 20px;
+    color: #e9e5e5;
+}
+.login {
+    border: 2px solid white;
+    border-radius: 4px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    max-width: 35%;
+    min-width: 35%;
+    height: auto;
+    padding: 15px 20px;
+}
+.login div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.login div input{
+    border: 1px solid #80808078;
+    border-radius: 3px;
+    padding: 8px;
+}
+.login div label{
+    font-weight: 600;
+    font-size: 14px;
+}
+.login p{
+    font-size: 12px;
+}
+.login a{
+    color: rgb(16,116,231);
+}
+.login button{
+    color: white;
+    font-weight: 600;
+    background-color: rgb(46,188,79);
+    padding: 15px 25px;
+    border: 1px solid rgb(46,188,79);
+    border-radius: 3px;
+    margin-top: 15px;
+    margin-bottom: 25px !important;
+}
+.signup p {
+    color: #7c7c7c;
+}
+.sign-btn {
+    display: none;
+    color: white;
+    font-weight: 600;
+    background-color: rgb(46,188,79);
+    padding: 15px 25px;
+    border: 1px solid rgb(46,188,79);
+    border-radius: 3px;
+}

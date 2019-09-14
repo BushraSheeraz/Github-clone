@@ -1,0 +1,38 @@
+.sec-3 {
+    /* max-width: 100%; */
+    display: flex;
+    justify-content: center;
+    height: auto;
+    padding: 25px 155px;
+}
+.Github-actions {
+    background: url(https://github.githubassets.com/images/modules/site/iso-ui.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px; 
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.Github-actions p {
+    margin-left: 250px; 
+    margin-right: 250px;
+    text-align: center;
+    color: #b0aeae;
+    font-size: 15px;
+}
+.Github-actions button{
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 10px 20px;
+    border: 1px solid rgba(16,116,231,0.61);
+    border-radius: 3px;
+    margin-top: 20px;
+}
+.Github-actions button:hover {
+    border-color: #1074e7;
+}
